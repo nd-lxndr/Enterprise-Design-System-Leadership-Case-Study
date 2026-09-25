@@ -23,7 +23,7 @@ Four issues were compounding across the org:
 - 1 Principal Engineer
 - 1 UX/UI Designer
 - 5 Core Frontend Developers
-- + rotating contributors across product teams
+- plus rotating contributors across product teams
 
 ## What I built
 
