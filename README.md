@@ -25,6 +25,30 @@ Four issues were compounding across the org:
 - 5 Core Frontend Developers
 - plus rotating contributors across product teams
 
+## Co-leading with engineering
+
+I co-led the design system with our Principal Engineer. We split ownership by expertise, but every decision that touched both sides was made together.
+
+### Design System Manager
+- Design language and token semantics
+- Accessibility standards
+- Figma library and usage guidelines
+- Adoption across design teams & support
+
+### Principal Engineer
+- Component architecture
+- Token build pipeline
+- Release process
+- Storybook and the code library
+
+### Shared
+- Roadmap and priorities
+- Component API decisions
+- Contribution model and governance
+- Definition of done
+
+A component wasn't finished until it existed in Figma, worked in Storybook, and passed accessibility checks, and both of us had to sign off.
+
 ## What I built
 
 ### Token-based architecture
@@ -37,7 +61,7 @@ Embedded WCAG standards into every component at the foundation level — contras
 Built out a shared library in both **Figma** and **Storybook**, each component documented with usage guidelines, interaction patterns, and implementation standards. This gave designers and developers one shared source of truth instead of two disconnected artifacts, which was the main lever for reducing handoff friction.
 
 ### Handoff & open-source transition
-As the org wound down local operations, I led preparing a full handoff of the system to another subsidiary — documenting every component, decision rationale, and usage guideline so a new team could pick it up without the original team in the room. In parallel, I pushed to open-source the Figma library (the dev library was already open-sourced), so the work has a life beyond the original team.
+As the org wound down local operations, we prepared a full handoff of the system to another subsidiary — documenting every component, decision rationale, and usage guideline so a new team could pick it up without the original team in the room. In parallel, I pushed to open-source the Figma library (the dev library was already open-sourced), so the work has a life beyond the original team.
 
 ## How design and engineering actually worked together
 
